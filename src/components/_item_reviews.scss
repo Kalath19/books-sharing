@@ -2,13 +2,11 @@
     padding: 0;
     margin: 0;
     width: 19.5vw;
-    //height: 445px;
-    display: flex;
+    height: 22vw;
     flex-direction: column;
     &__User {
         display: flex;
         width: 100%;
-        //height: 32px;
         text-align: left;
         img {
             display: flex;
@@ -18,7 +16,6 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            // height: 32px;
             .h5_user {
                 display: flex;
                 font-size: 0.6vw;
@@ -39,17 +36,14 @@
         margin-top: 1%;
         display: flex;
         width: 100%;
-        //height: 210px;
         background: $gray;
         border-radius: 10px;
         &__image {
             display: flex;
             width: 40%;
-            //height: 210px;
             img {
                 margin: auto;
                 width: 70%;
-                //height: 168px;
                 border-radius: 3px;
             }
         }
@@ -57,7 +51,6 @@
             display: flex;
             flex-direction: column;
             width: 60%;
-            //height: 210px;
             .h4-title {
                 display: flex;
                 margin: 10% 5% 3% 5%;
@@ -90,13 +83,11 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        //height: 180px;
         &__top {
             margin: 2% 0 0 0;
             display: flex;
             align-items: flex-start;
             width: 100%;
-            //height: 40px;
             img {
                 margin: 0;
                 height: 20px;
