@@ -30,12 +30,12 @@
             list-style-type: none;
             display: flex;
             flex-direction: row;
-            width: 67%;
+            width: 64%;
             justify-content: space-evenly;
             h4 {
                 display: flex;
                 margin: 0;
-                font-size: 26px;
+                font-size: 1.3vw;
                 color: $black;
                 font-weight: 400;
                 width: -webkit-fill-available;
@@ -44,7 +44,7 @@
                 margin: 0;
                 font-weight: 400;
                 display: flex;
-                font-size: 26px;
+                font-size: 1.3vw;
                 outline: none;
             }
         }
@@ -63,7 +63,7 @@
             h4 {
                 display: flex;
                 margin: 1% 2.5%;
-                font-size: 21px;
+                font-size: 1.1vw;
                 color: $black;
                 font-weight: 400;
             }
@@ -82,24 +82,29 @@
                 .window-title {
                     background: $white;
                     width: 95%;
-                    height: 45px;
+                    height: 3vw;
                     border: 1px solid $black;
                     border-radius: 5px;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                     resize: none;
                 }
                 .window-review {
                     background: $white;
                     width: 95%;
-                    height: 350px;
+                    height: 19vw;
                     border: 1px solid $black;
                     border-radius: 5px;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                     resize: none;
                     margin-bottom: 1%;
                 }
+            }
+            &__button {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
             }
         }
     }

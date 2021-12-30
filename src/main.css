@@ -326,9 +326,8 @@ body {
 }
 
 .publish-button {
-  width: 247px;
-  height: 42px;
-  font-size: 18px;
+  padding: 0.7% 4%;
+  font-size: 0.9vw;
   color: #3f3c3b;
   border-radius: 5px;
   align-items: center;
@@ -1139,13 +1138,13 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 67%;
+  width: 64%;
   justify-content: space-evenly;
 }
 .create_review__basic_info__location h4 {
   display: flex;
   margin: 0;
-  font-size: 26px;
+  font-size: 1.3vw;
   color: #3f3c3b;
   font-weight: 400;
   width: -webkit-fill-available;
@@ -1154,7 +1153,7 @@ body {
   margin: 0;
   font-weight: 400;
   display: flex;
-  font-size: 26px;
+  font-size: 1.3vw;
   outline: none;
 }
 .create_review__position {
@@ -1173,7 +1172,7 @@ body {
 .create_review__position__New-review h4 {
   display: flex;
   margin: 1% 2.5%;
-  font-size: 21px;
+  font-size: 1.1vw;
   color: #3f3c3b;
   font-weight: 400;
 }
@@ -1191,23 +1190,28 @@ body {
 .create_review__position__New-review__input-window-style .window-title {
   background: white;
   width: 95%;
-  height: 45px;
+  height: 3vw;
   border: 1px solid #3f3c3b;
   border-radius: 5px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
   resize: none;
 }
 .create_review__position__New-review__input-window-style .window-review {
   background: white;
   width: 95%;
-  height: 350px;
+  height: 19vw;
   border: 1px solid #3f3c3b;
   border-radius: 5px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
   resize: none;
   margin-bottom: 1%;
+}
+.create_review__position__New-review__button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .rating-area {
