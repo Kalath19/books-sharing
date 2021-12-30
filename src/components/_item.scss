@@ -1,30 +1,28 @@
 .item {
     padding: 0;
     margin: 0;
-    width: 170px;
-    height: 410px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     &__new {
         background: $yellow;
-        width: 95px;
-        height: 20px;
+        width: 50%;
         text-align: center;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
     }
     &__new>h5 {
         display: contents;
-        font-size: 12px;
+        font-size: 0.6vw;
         font-weight: 600;
         color: $black;
     }
     &__image {
-        width: 172px;
+        width: 77.5%;
+        vertical-align: middle
     }
     &__info {
-        width: 170px;
-        height: 140px;
+        width: 77%;
         border: 1px solid $black;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
@@ -38,7 +36,7 @@
         }
         &__content>h4 {
             margin: 0;
-            font-size: 12px;
+            font-size: 0.6vw;
             font-weight: 400;
             color: $black;
         }
@@ -54,7 +52,7 @@
                 margin-top: 0;
                 margin-bottom: 5%;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 1.1vw;
                 color: $black;
             }
         }
@@ -62,7 +60,7 @@
     &__info>p {
         margin: 3% 5% 3% 5%;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 0.6vw;
         color: $black;
     }
 }
