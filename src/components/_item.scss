@@ -2,14 +2,12 @@
     padding: 0;
     margin: 0;
     width: 10vw;
-    //display: flex;
-    //flex-direction: column;
     &__new {
         background: $yellow;
         width: 50%;
         text-align: center;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
+        border-top-right-radius: 1vw;
+        border-top-left-radius: 1vw;
     }
     &__new>h5 {
         display: contents;
@@ -22,10 +20,9 @@
         width: 10vw;
     }
     &__info {
-        //width: 10vw;
         border: 1px solid $black;
-        border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 1.5vw;
+        border-bottom-left-radius: 1.5vw;
         &__content {
             margin: 0;
             padding: 0;
@@ -42,12 +39,15 @@
         }
         &__rating {
             display: flex;
+            align-items: center;
+            margin-bottom: 2%;
             img {
                 margin-left: 5%;
                 margin-right: 5%;
-                height: 24px;
+                width: 21%;
             }
             p {
+                display: contents;
                 margin-left: 0;
                 margin-top: 0;
                 margin-bottom: 5%;

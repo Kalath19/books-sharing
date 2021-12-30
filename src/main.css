@@ -243,7 +243,7 @@ body {
   font-size: 0.6vw;
   display: flex;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin: 0 auto 10% auto;
@@ -254,7 +254,7 @@ body {
   padding: 3% 10%;
   font-size: 0.7vw;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin: 3% 5% 5% 5%;
@@ -264,7 +264,7 @@ body {
 .search_button {
   padding: 1% 2%;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   font-size: 1.1vw;
   font-weight: 400;
 }
@@ -273,7 +273,7 @@ body {
   padding: 1.1% 4%;
   font-size: 0.9vw;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin: 3% 5% 0 5%;
@@ -284,7 +284,7 @@ body {
   padding: 1.1% 4%;
   font-size: 0.9vw;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin: 3% 5% 0 5%;
@@ -308,7 +308,7 @@ body {
   padding: 0.5% 3%;
   font-size: 0.9vw;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin: 1.5% 0 1.5% 0;
@@ -319,7 +319,7 @@ body {
   padding: 0.6% 3%;
   font-size: 0.9vw;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   font-weight: 400;
@@ -329,7 +329,7 @@ body {
   padding: 0.7% 4%;
   font-size: 0.9vw;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin: 1% 2.5%;
@@ -341,7 +341,7 @@ body {
   font-size: 0.8vw;
   display: flex;
   color: #3f3c3b;
-  border-radius: 5px;
+  border-radius: 0.3vw;
   align-items: center;
   justify-content: center;
   margin-right: 0;
@@ -773,8 +773,8 @@ body {
   background: #d9aa55;
   width: 50%;
   text-align: center;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
 }
 .item__new > h5 {
   display: contents;
@@ -788,8 +788,8 @@ body {
 }
 .item__info {
   border: 1px solid #3f3c3b;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 1.5vw;
+  border-bottom-left-radius: 1.5vw;
 }
 .item__info__content {
   margin: 0;
@@ -807,13 +807,16 @@ body {
 }
 .item__info__rating {
   display: flex;
+  align-items: center;
+  margin-bottom: 2%;
 }
 .item__info__rating img {
   margin-left: 5%;
   margin-right: 5%;
-  height: 24px;
+  width: 21%;
 }
 .item__info__rating p {
+  display: contents;
   margin-left: 0;
   margin-top: 0;
   margin-bottom: 5%;
@@ -903,7 +906,7 @@ body {
 }
 .item_reviews__middle-info__text__rating img {
   margin: 7% 5% 5% 5%;
-  height: 36px;
+  width: 15%;
 }
 .item_reviews__middle-info__text__rating p {
   margin: 7% 2% 5% 0;
@@ -923,7 +926,7 @@ body {
 }
 .item_reviews__main-info__top img {
   margin: 0;
-  height: 20px;
+  width: 8%;
 }
 .item_reviews__main-info__top .h4-title {
   margin: 0;
@@ -1160,6 +1163,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2vh;
 }
 .create_review__position__New-review {
   display: flex;
