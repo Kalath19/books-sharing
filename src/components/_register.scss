@@ -13,8 +13,7 @@
             width: 40%;
             align-items: center;
             img {
-                width: 285px;
-                // height: 285px;
+                width: 15vw;
             }
         }
         &__inputs {
@@ -30,21 +29,21 @@
                 .blok {
                     border: 1px solid $black;
                     background: $gray;
-                    width: 265px;
-                    height: 40px;
+                    width: 14vw;
+                    height: 2.25vw;
                 }
                 h4 {
                     margin: 4% 0 0 10%;
                     color: $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
                 .input-style {
                     background: $white;
-                    width: 465px;
+                    width: 23vw;
                     border: 1px solid $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
             }
         }

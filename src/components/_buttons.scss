@@ -52,9 +52,8 @@
 }
 
 .register-button {
-    width: 247px;
-    height: 42px;
-    font-size: 18px;
+    padding: 1.1% 4%;
+    font-size: 0.9vw;
     color: $black;
     border-radius: 5px;
     align-items: center;
@@ -76,16 +75,15 @@
 }
 
 .upload-button {
-    width: 150px;
-    height: 28px;
-    font-size: 16px;
+    padding: 4% 1%;
+    font-size: 0.9vw;
     display: flex;
     color: $blue;
     border: none;
     background: transparent;
     align-items: center;
     justify-content: center;
-    margin: 2% auto;
+    margin: 0 auto;
     font-weight: 400;
 }
 

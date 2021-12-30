@@ -270,9 +270,8 @@ body {
 }
 
 .register-button {
-  width: 247px;
-  height: 42px;
-  font-size: 18px;
+  padding: 1.1% 4%;
+  font-size: 0.9vw;
   color: #3f3c3b;
   border-radius: 5px;
   align-items: center;
@@ -294,16 +293,15 @@ body {
 }
 
 .upload-button {
-  width: 150px;
-  height: 28px;
-  font-size: 16px;
+  padding: 4% 1%;
+  font-size: 0.9vw;
   display: flex;
   color: #166e9f;
   border: none;
   background: transparent;
   align-items: center;
   justify-content: center;
-  margin: 2% auto;
+  margin: 0 auto;
   font-weight: 400;
 }
 
@@ -688,7 +686,7 @@ body {
   align-items: center;
 }
 .register__container__photo img {
-  width: 285px;
+  width: 15vw;
 }
 .register__container__inputs {
   margin: 3% auto;
@@ -705,21 +703,21 @@ body {
 .register__container__inputs__input-field .blok {
   border: 1px solid #3f3c3b;
   background: #dddddc;
-  width: 265px;
-  height: 40px;
+  width: 14vw;
+  height: 2.25vw;
 }
 .register__container__inputs__input-field h4 {
   margin: 4% 0 0 10%;
   color: #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .register__container__inputs__input-field .input-style {
   background: white;
-  width: 465px;
+  width: 23vw;
   border: 1px solid #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 
 .Popular {
