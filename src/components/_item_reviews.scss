@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     width: 19.5vw;
-    height: 22vw;
+    height: 25vw;
     flex-direction: column;
     &__User {
         display: flex;
@@ -18,14 +18,14 @@
             width: 100%;
             .h5_user {
                 display: flex;
-                font-size: 0.6vw;
+                font-size: 0.7vw;
                 margin: 0 0 0 1%;
                 color: $black;
                 font-weight: 600;
             }
             .h5_status {
                 display: flex;
-                font-size: 0.6vw;
+                font-size: 0.7vw;
                 margin: 0 0 0 1%;
                 font-weight: 300;
                 color: $black;
@@ -55,12 +55,12 @@
                 display: flex;
                 margin: 10% 5% 3% 5%;
                 font-weight: 400;
-                font-size: 0.8vw;
+                font-size: 0.9vw;
                 color: $black;
             }
             .h4-author {
                 display: flex;
-                font-size: 0.6vw;
+                font-size: 0.8vw;
                 margin: 0 5% 0 5%;
                 font-weight: 300;
                 color: $black;
@@ -95,21 +95,21 @@
             .h4-title {
                 margin: 0;
                 display: flex;
-                font-size: 0.7vw;
+                font-size: 0.8vw;
                 font-weight: 400;
                 color: $black;
             }
         }
         .h4-text {
             display: flex;
-            font-size: 0.7vw;
+            font-size: 0.8vw;
             margin: 0 0 2% 0;
             font-weight: 300;
             color: $black;
         }
         a {
             display: flex;
-            font-size: 0.7vw;
+            font-size: 0.8vw;
             outline: none;
             font-weight: 400;
         }

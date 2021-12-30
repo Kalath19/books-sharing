@@ -1,9 +1,9 @@
 .item {
     padding: 0;
     margin: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 10vw;
+    //display: flex;
+    //flex-direction: column;
     &__new {
         background: $yellow;
         width: 50%;
@@ -13,16 +13,16 @@
     }
     &__new>h5 {
         display: contents;
-        font-size: 0.6vw;
+        font-size: 0.7vw;
         font-weight: 600;
         color: $black;
     }
     &__image {
-        width: 78%;
-        vertical-align: middle
+        vertical-align: middle;
+        width: 10vw;
     }
     &__info {
-        width: 77%;
+        //width: 10vw;
         border: 1px solid $black;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
@@ -36,7 +36,7 @@
         }
         &__content>h4 {
             margin: 0;
-            font-size: 0.7vw;
+            font-size: 0.8vw;
             font-weight: 400;
             color: $black;
         }
@@ -52,7 +52,7 @@
                 margin-top: 0;
                 margin-bottom: 5%;
                 font-weight: 400;
-                font-size: 1.1vw;
+                font-size: 1.2vw;
                 color: $black;
             }
         }
@@ -60,7 +60,7 @@
     &__info>p {
         margin: 3% 5% 3% 5%;
         font-weight: 300;
-        font-size: 0.7vw;
+        font-size: 0.8vw;
         color: $black;
     }
 }

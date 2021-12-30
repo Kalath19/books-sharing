@@ -262,11 +262,10 @@ body {
 }
 
 .search_button {
-  width: 100px;
-  height: 40px;
+  padding: 1% 2%;
   color: #3f3c3b;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 1.1vw;
   font-weight: 400;
 }
 
@@ -549,7 +548,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 67%;
   justify-content: space-evenly;
 }
 .New_arrival__basic_info__location h4 {
@@ -690,7 +689,6 @@ body {
 }
 .register__container__photo img {
   width: 285px;
-  height: 285px;
 }
 .register__container__inputs {
   margin: 3% auto;
@@ -755,7 +753,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 66%;
   justify-content: space-evenly;
 }
 .Popular__basic_info__location h4 {
@@ -777,9 +775,7 @@ body {
 .item {
   padding: 0;
   margin: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 10vw;
 }
 .item__new {
   background: #d9aa55;
@@ -790,16 +786,15 @@ body {
 }
 .item__new > h5 {
   display: contents;
-  font-size: 0.6vw;
+  font-size: 0.7vw;
   font-weight: 600;
   color: #3f3c3b;
 }
 .item__image {
-  width: 78%;
   vertical-align: middle;
+  width: 10vw;
 }
 .item__info {
-  width: 77%;
   border: 1px solid #3f3c3b;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -814,7 +809,7 @@ body {
 }
 .item__info__content > h4 {
   margin: 0;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   font-weight: 400;
   color: #3f3c3b;
 }
@@ -831,13 +826,13 @@ body {
   margin-top: 0;
   margin-bottom: 5%;
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   color: #3f3c3b;
 }
 .item__info > p {
   margin: 3% 5% 3% 5%;
   font-weight: 300;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   color: #3f3c3b;
 }
 
@@ -845,7 +840,7 @@ body {
   padding: 0;
   margin: 0;
   width: 19.5vw;
-  height: 22vw;
+  height: 25vw;
   flex-direction: column;
 }
 .item_reviews__User {
@@ -864,14 +859,14 @@ body {
 }
 .item_reviews__User__review-contener .h5_user {
   display: flex;
-  font-size: 0.6vw;
+  font-size: 0.7vw;
   margin: 0 0 0 1%;
   color: #3f3c3b;
   font-weight: 600;
 }
 .item_reviews__User__review-contener .h5_status {
   display: flex;
-  font-size: 0.6vw;
+  font-size: 0.7vw;
   margin: 0 0 0 1%;
   font-weight: 300;
   color: #3f3c3b;
@@ -901,12 +896,12 @@ body {
   display: flex;
   margin: 10% 5% 3% 5%;
   font-weight: 400;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   color: #3f3c3b;
 }
 .item_reviews__middle-info__text .h4-author {
   display: flex;
-  font-size: 0.6vw;
+  font-size: 0.8vw;
   margin: 0 5% 0 5%;
   font-weight: 300;
   color: #3f3c3b;
@@ -941,20 +936,20 @@ body {
 .item_reviews__main-info__top .h4-title {
   margin: 0;
   display: flex;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   font-weight: 400;
   color: #3f3c3b;
 }
 .item_reviews__main-info .h4-text {
   display: flex;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   margin: 0 0 2% 0;
   font-weight: 300;
   color: #3f3c3b;
 }
 .item_reviews__main-info a {
   display: flex;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   outline: none;
   font-weight: 400;
 }
