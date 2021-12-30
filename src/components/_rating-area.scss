@@ -1,6 +1,6 @@
     .rating-area {
         overflow: hidden;
-        width: 210px;
+        width: 11vw;
         margin: 0 2.5%;
     }
     
@@ -10,11 +10,11 @@
     
     .rating-area:not(:checked)>label {
         float: right;
-        width: 42px;
+        width: 2.1vw;
         padding: 0;
         cursor: pointer;
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 1.7vw;
+        line-height: 1.7vw;
         color: lightgrey;
         text-shadow: 1px 1px #bbb;
     }

@@ -530,7 +530,6 @@ body {
 .New_arrival li a {
   text-decoration: none;
   outline: none;
-  background: "../images/1.jpg";
 }
 .New_arrival__basic_info {
   display: flex;
@@ -542,7 +541,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 67%;
   justify-content: space-evenly;
 }
 .New_arrival__basic_info__location h4 {
@@ -770,8 +769,6 @@ body {
   padding: 0;
   margin: 0;
   width: 10vw;
-  display: flex;
-  flex-direction: column;
 }
 .item__new {
   background: #d9aa55;
@@ -782,13 +779,13 @@ body {
 }
 .item__new > h5 {
   display: contents;
-  font-size: 0.6vw;
+  font-size: 0.7vw;
   font-weight: 600;
   color: #3f3c3b;
 }
 .item__image {
-  width: 10vw;
   vertical-align: middle;
+  width: 10vw;
 }
 .item__info {
   border: 1px solid #3f3c3b;
@@ -805,7 +802,7 @@ body {
 }
 .item__info__content > h4 {
   margin: 0;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   font-weight: 400;
   color: #3f3c3b;
 }
@@ -822,13 +819,13 @@ body {
   margin-top: 0;
   margin-bottom: 5%;
   font-weight: 400;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   color: #3f3c3b;
 }
 .item__info > p {
   margin: 3% 5% 3% 5%;
   font-weight: 300;
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   color: #3f3c3b;
 }
 
@@ -952,8 +949,8 @@ body {
 
 .paginator {
   display: flex;
-  width: 280px;
-  padding: 10px;
+  width: 15vw;
+  padding: 0.7vw;
   margin: 0;
   white-space: nowrap;
   align-items: center;
@@ -962,10 +959,9 @@ body {
 .paginator a {
   margin: 0 3px;
   display: inline-block;
-  min-width: 20px;
-  height: 40px;
-  padding: 0 10px;
-  line-height: 40px;
+  min-width: 1.1vw;
+  padding: 0 0.47vw;
+  line-height: 2vw;
   color: #3f3c3b;
   text-decoration: none;
   font-weight: bold;
@@ -974,14 +970,16 @@ body {
   background: #dddddc;
   border-radius: 50%;
   outline: none;
+  font-weight: 400;
+  font-size: 0.9vw;
 }
 .paginator .prev {
-  margin-right: 20px;
-  background-position: 0px 0px;
+  margin-right: 6%;
+  background-position: 0 1%;
 }
 .paginator .next {
-  margin-left: 20px;
-  background-position: 0px -40px;
+  margin-left: 6%;
+  background-position: 0 -1%;
 }
 .paginator .current {
   background-color: #3f3c3b;
@@ -1214,7 +1212,7 @@ body {
 
 .rating-area {
   overflow: hidden;
-  width: 210px;
+  width: 11vw;
   margin: 0 2.5%;
 }
 
@@ -1224,11 +1222,11 @@ body {
 
 .rating-area:not(:checked) > label {
   float: right;
-  width: 42px;
+  width: 2.1vw;
   padding: 0;
   cursor: pointer;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
   color: lightgrey;
   text-shadow: 1px 1px #bbb;
 }
