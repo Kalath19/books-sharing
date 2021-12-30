@@ -13,8 +13,7 @@
             align-items: center;
             flex-direction: column;
             img {
-                width: 289px;
-                height: 444px;
+                width: 15vw;
                 border-radius: 5px;
             }
         }
@@ -31,21 +30,21 @@
                 .blok {
                     border: 1px solid $black;
                     background: $gray;
-                    width: 265px;
-                    height: 40px;
+                    width: 14vw;
+                    height: 2.25vw;
                 }
                 h4 {
                     margin: 4% 0 0 10%;
                     color: $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
                 .input-style {
                     background: $white;
-                    width: 465px;
+                    width: 23vw;
                     border: 1px solid $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
             }
             &__input-window {
@@ -53,22 +52,22 @@
                 flex-direction: column;
                 margin: 0 0 2% 0;
                 .blok {
-                    width: 738px;
-                    height: 40px;
+                    width: 37vw;
+                    height: 2vw;
                 }
                 h4 {
                     margin: 2% 0 0 0;
                     color: $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 1vw;
                 }
                 .window-style {
                     background: $white;
-                    width: 738px;
-                    height: 265px;
+                    width: 37vw;
+                    height: 13vw;
                     border: 1px solid $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                     resize: none;
                 }
             }

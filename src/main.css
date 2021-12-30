@@ -281,9 +281,8 @@ body {
 }
 
 .new-book-button {
-  width: 247px;
-  height: 42px;
-  font-size: 18px;
+  padding: 1.1% 4%;
+  font-size: 0.9vw;
   color: #3f3c3b;
   border-radius: 5px;
   align-items: center;
@@ -454,8 +453,7 @@ body {
   flex-direction: column;
 }
 .new-book__container__photo img {
-  width: 289px;
-  height: 444px;
+  width: 15vw;
   border-radius: 5px;
 }
 .new-book__container__inputs {
@@ -473,21 +471,21 @@ body {
 .new-book__container__inputs__input-field .blok {
   border: 1px solid #3f3c3b;
   background: #dddddc;
-  width: 265px;
-  height: 40px;
+  width: 14vw;
+  height: 2.25vw;
 }
 .new-book__container__inputs__input-field h4 {
   margin: 4% 0 0 10%;
   color: #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .new-book__container__inputs__input-field .input-style {
   background: white;
-  width: 465px;
+  width: 23vw;
   border: 1px solid #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .new-book__container__inputs__input-window {
   display: flex;
@@ -495,22 +493,22 @@ body {
   margin: 0 0 2% 0;
 }
 .new-book__container__inputs__input-window .blok {
-  width: 738px;
-  height: 40px;
+  width: 37vw;
+  height: 2vw;
 }
 .new-book__container__inputs__input-window h4 {
   margin: 2% 0 0 0;
   color: #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1vw;
 }
 .new-book__container__inputs__input-window .window-style {
   background: white;
-  width: 738px;
-  height: 265px;
+  width: 37vw;
+  height: 13vw;
   border: 1px solid #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
   resize: none;
 }
 
