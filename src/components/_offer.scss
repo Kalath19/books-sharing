@@ -10,12 +10,11 @@
          margin-right: 54%;
          align-items: center;
          img {
-             width: 250px;
-             height: 375px;
+             width: 12vw;
              border-radius: 5px;
          }
          a {
-             font-size: 20px;
+             font-size: 1.1vw;
              color: $yellow;
              font-weight: 400;
              text-decoration: none;
@@ -35,14 +34,14 @@
              flex-direction: column;
              width: 54%;
              .h4-title {
-                 font-size: 26px;
+                 font-size: 1.6vw;
                  color: $black;
                  font-weight: 400;
                  margin: 2% 0;
              }
              .h4-author {
                  margin: 0;
-                 font-size: 26px;
+                 font-size: 1.5vw;
                  color: $black;
                  font-weight: 300;
              }
@@ -60,7 +59,7 @@
                  justify-content: flex-start;
                  a {
                      margin-right: 3%;
-                     font-size: 16px;
+                     font-size: 0.9vw;
                      color: $black;
                      font-weight: 300;
                      text-decoration: none;
@@ -91,11 +90,11 @@
                      justify-content: space-between;
                      img {
                          margin-right: 1%;
-                         height: 35px;
+                         height: 1.8vw;
                      }
                      .h4-rev {
                          margin: 0;
-                         font-size: 30px;
+                         font-size: 1.6vw;
                          color: $black;
                          font-weight: 400;
                      }
@@ -107,7 +106,7 @@
                      width: 60%;
                      .h4-mark {
                          margin: 0;
-                         font-size: 26px;
+                         font-size: 1.4vw;
                          color: $black;
                          font-weight: 400;
                      }
@@ -120,7 +119,7 @@
                  margin-left: 2%;
                  .h4-text {
                      margin: 0;
-                     font-size: 20px;
+                     font-size: 1.1vw;
                      color: $black;
                      font-weight: 400;
                  }
@@ -129,7 +128,7 @@
                      margin: 0;
                      font-weight: 400;
                      display: flex;
-                     font-size: 18px;
+                     font-size: 1vw;
                      text-decoration: none;
                      outline: none;
                  }
@@ -139,10 +138,10 @@
                  flex-direction: column;
                  margin-left: 2%;
                  .h4-notice {
-                     font-size: 26px;
+                     font-size: 1.4vw;
                      color: $brown;
                      font-weight: 400;
-                     margin: 2% 0;
+                     margin: 3% 0;
                  }
                  .user-offer {
                      padding: 0;
@@ -156,7 +155,7 @@
                          text-align: left;
                          img {
                              display: flex;
-                             width: 32px;
+                             width: 1.6vw;
                          }
                          &__review-contener {
                              display: flex;
@@ -164,14 +163,14 @@
                              width: 100%;
                              .h5_user {
                                  display: flex;
-                                 font-size: 12px;
+                                 font-size: 0.7vw;
                                  margin: 0 0 0 1%;
                                  color: $black;
                                  font-weight: 600;
                              }
                              .h5_status {
                                  display: flex;
-                                 font-size: 12px;
+                                 font-size: 0.7vw;
                                  margin: 0 0 0 1%;
                                  font-weight: 300;
                                  color: $black;
@@ -210,8 +209,8 @@
                                      width: 40%;
                                      &__sale {
                                          display: flex;
-                                         width: 100px;
-                                         height: 37px;
+                                         width: 5.8vw;
+                                         height: 2vw;
                                          border: 1px solid $black;
                                          border-radius: 30px;
                                          align-items: center;
@@ -219,14 +218,14 @@
                                          .h4-sale {
                                              margin: 0;
                                              color: $brown;
-                                             font-size: 18px;
+                                             font-size: 1vw;
                                              font-weight: 400;
                                          }
                                      }
                                      &__exchange {
                                          display: flex;
-                                         width: 100px;
-                                         height: 37px;
+                                         width: 5.8vw;
+                                         height: 2vw;
                                          border: 1px solid $black;
                                          border-radius: 30px;
                                          align-items: center;
@@ -234,14 +233,14 @@
                                          .h4-exchange {
                                              margin: 0;
                                              color: $blue;
-                                             font-size: 18px;
+                                             font-size: 1vw;
                                              font-weight: 400;
                                          }
                                      }
                                  }
                                  .h4-status {
                                      margin: 0;
-                                     font-size: 18px;
+                                     font-size: 1vw;
                                      color: $yellow;
                                      font-weight: 400;
                                  }
@@ -249,13 +248,14 @@
                          }
                          .h4-city {
                              margin: 2% 0 0 2%;
-                             font-size: 24px;
+                             font-size: 1.3vw;
+                             ;
                              color: $black;
                              font-weight: 400;
                          }
                          .h4-comment {
                              margin: 2% 0 2% 2%;
-                             font-size: 18px;
+                             font-size: 1vw;
                              color: $black;
                              font-weight: 300;
                          }

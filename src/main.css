@@ -305,9 +305,8 @@ body {
 }
 
 .navigation-button {
-  width: 247px;
-  height: 42px;
-  font-size: 18px;
+  padding: 0.5% 3%;
+  font-size: 0.9vw;
   color: #3f3c3b;
   border-radius: 5px;
   align-items: center;
@@ -317,9 +316,8 @@ body {
 }
 
 .saving-button {
-  width: 247px;
-  height: 42px;
-  font-size: 18px;
+  padding: 0.6% 3%;
+  font-size: 0.9vw;
   color: #3f3c3b;
   border-radius: 5px;
   align-items: center;
@@ -340,9 +338,8 @@ body {
 }
 
 .offer-button {
-  width: 197px;
-  height: 33px;
-  font-size: 17px;
+  padding: 0.7% 4%;
+  font-size: 0.8vw;
   display: flex;
   color: #3f3c3b;
   border-radius: 5px;
@@ -436,9 +433,9 @@ body {
 }
 
 .new-book {
-  height: 85vh;
+  height: 41vw;
   width: 80%;
-  margin-top: 7%;
+  margin-top: 6vw;
   background: #f9f9f9;
   border: 1px solid #3f3c3b;
 }
@@ -533,6 +530,7 @@ body {
 .New_arrival li a {
   text-decoration: none;
   outline: none;
+  background: "../images/1.jpg";
 }
 .New_arrival__basic_info {
   display: flex;
@@ -544,7 +542,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 67%;
+  width: 60%;
   justify-content: space-evenly;
 }
 .New_arrival__basic_info__location h4 {
@@ -667,9 +665,9 @@ body {
 }
 
 .register {
-  height: 70.4vmin;
+  height: 34.49vw;
   width: 80%;
-  margin-top: 7%;
+  margin-top: 6vw;
   background: #f9f9f9;
   border: 1px solid #3f3c3b;
 }
@@ -772,6 +770,8 @@ body {
   padding: 0;
   margin: 0;
   width: 10vw;
+  display: flex;
+  flex-direction: column;
 }
 .item__new {
   background: #d9aa55;
@@ -782,13 +782,13 @@ body {
 }
 .item__new > h5 {
   display: contents;
-  font-size: 0.7vw;
+  font-size: 0.6vw;
   font-weight: 600;
   color: #3f3c3b;
 }
 .item__image {
-  vertical-align: middle;
   width: 10vw;
+  vertical-align: middle;
 }
 .item__info {
   border: 1px solid #3f3c3b;
@@ -805,7 +805,7 @@ body {
 }
 .item__info__content > h4 {
   margin: 0;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   font-weight: 400;
   color: #3f3c3b;
 }
@@ -822,13 +822,13 @@ body {
   margin-top: 0;
   margin-bottom: 5%;
   font-weight: 400;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   color: #3f3c3b;
 }
 .item__info > p {
   margin: 3% 5% 3% 5%;
   font-weight: 300;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
   color: #3f3c3b;
 }
 
@@ -996,9 +996,9 @@ body {
 }
 
 .my-account {
-  height: 76vh;
+  height: 37vw;
   width: 80%;
-  margin-top: 7%;
+  margin-top: 6vw;
   background: #f9f9f9;
   border: 1px solid #3f3c3b;
 }
@@ -1013,8 +1013,7 @@ body {
   align-items: center;
 }
 .my-account__container__photo img {
-  width: 285px;
-  height: 285px;
+  width: 15vw;
 }
 .my-account__container__inputs-changes {
   margin: 3% auto;
@@ -1031,21 +1030,21 @@ body {
 .my-account__container__inputs-changes__input-field .blok {
   border: 1px solid #3f3c3b;
   background: #dddddc;
-  width: 265px;
-  height: 40px;
+  width: 14vw;
+  height: 2.25vw;
 }
 .my-account__container__inputs-changes__input-field h4 {
   margin: 4% 0 0 10%;
   color: #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .my-account__container__inputs-changes__input-field .input-style {
   background: white;
-  width: 465px;
+  width: 23vw;
   border: 1px solid #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .my-account__container__user-info {
   margin: 0 0 1.5% 10%;
@@ -1056,13 +1055,13 @@ body {
 }
 .my-account__container__user-info h4 {
   margin: 0;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 400;
   color: #3f3c3b;
 }
 .my-account__container__user-info a {
   margin: 0;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 400;
   color: #d9aa55;
   text-decoration: none;
@@ -1087,21 +1086,21 @@ body {
 .my-account__container__inputs-password__input-field .blok {
   border: 1px solid #3f3c3b;
   background: #dddddc;
-  width: 165px;
-  height: 40px;
+  width: 9vw;
+  height: 2vw;
 }
 .my-account__container__inputs-password__input-field h4 {
   margin: 4% 0 0 10%;
   color: #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .my-account__container__inputs-password__input-field .input-style {
   background: white;
-  width: 255px;
+  width: 12vw;
   border: 1px solid #3f3c3b;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 .my-account__container__saving-button {
   display: flex;
@@ -1275,12 +1274,11 @@ body {
   align-items: center;
 }
 .offer__image img {
-  width: 250px;
-  height: 375px;
+  width: 12vw;
   border-radius: 5px;
 }
 .offer__image a {
-  font-size: 20px;
+  font-size: 1.1vw;
   color: #d9aa55;
   font-weight: 400;
   text-decoration: none;
@@ -1301,14 +1299,14 @@ body {
   width: 54%;
 }
 .offer__head__about .h4-title {
-  font-size: 26px;
+  font-size: 1.6vw;
   color: #3f3c3b;
   font-weight: 400;
   margin: 2% 0;
 }
 .offer__head__about .h4-author {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.5vw;
   color: #3f3c3b;
   font-weight: 300;
 }
@@ -1327,7 +1325,7 @@ body {
 }
 .offer__head__about__information a {
   margin-right: 3%;
-  font-size: 16px;
+  font-size: 0.9vw;
   color: #3f3c3b;
   font-weight: 300;
   text-decoration: none;
@@ -1359,11 +1357,11 @@ body {
 }
 .offer__main-info__location__mark__rating img {
   margin-right: 1%;
-  height: 35px;
+  height: 1.8vw;
 }
 .offer__main-info__location__mark__rating .h4-rev {
   margin: 0;
-  font-size: 30px;
+  font-size: 1.6vw;
   color: #3f3c3b;
   font-weight: 400;
 }
@@ -1375,7 +1373,7 @@ body {
 }
 .offer__main-info__location__mark__my-mark .h4-mark {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.4vw;
   color: #3f3c3b;
   font-weight: 400;
 }
@@ -1387,7 +1385,7 @@ body {
 }
 .offer__main-info__location__text .h4-text {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.1vw;
   color: #3f3c3b;
   font-weight: 400;
 }
@@ -1396,7 +1394,7 @@ body {
   margin: 0;
   font-weight: 400;
   display: flex;
-  font-size: 18px;
+  font-size: 1vw;
   text-decoration: none;
   outline: none;
 }
@@ -1406,10 +1404,10 @@ body {
   margin-left: 2%;
 }
 .offer__main-info__location__custom-offers .h4-notice {
-  font-size: 26px;
+  font-size: 1.4vw;
   color: #73513d;
   font-weight: 400;
-  margin: 2% 0;
+  margin: 3% 0;
 }
 .offer__main-info__location__custom-offers .user-offer {
   padding: 0;
@@ -1425,7 +1423,7 @@ body {
 }
 .offer__main-info__location__custom-offers .user-offer__User img {
   display: flex;
-  width: 32px;
+  width: 1.6vw;
 }
 .offer__main-info__location__custom-offers .user-offer__User__review-contener {
   display: flex;
@@ -1434,14 +1432,14 @@ body {
 }
 .offer__main-info__location__custom-offers .user-offer__User__review-contener .h5_user {
   display: flex;
-  font-size: 12px;
+  font-size: 0.7vw;
   margin: 0 0 0 1%;
   color: #3f3c3b;
   font-weight: 600;
 }
 .offer__main-info__location__custom-offers .user-offer__User__review-contener .h5_status {
   display: flex;
-  font-size: 12px;
+  font-size: 0.7vw;
   margin: 0 0 0 1%;
   font-weight: 300;
   color: #3f3c3b;
@@ -1482,8 +1480,8 @@ body {
 }
 .offer__main-info__location__custom-offers .user-offer__info__middle-info__status__variation__sale {
   display: flex;
-  width: 100px;
-  height: 37px;
+  width: 5.8vw;
+  height: 2vw;
   border: 1px solid #3f3c3b;
   border-radius: 30px;
   align-items: center;
@@ -1492,13 +1490,13 @@ body {
 .offer__main-info__location__custom-offers .user-offer__info__middle-info__status__variation__sale .h4-sale {
   margin: 0;
   color: #73513d;
-  font-size: 18px;
+  font-size: 1vw;
   font-weight: 400;
 }
 .offer__main-info__location__custom-offers .user-offer__info__middle-info__status__variation__exchange {
   display: flex;
-  width: 100px;
-  height: 37px;
+  width: 5.8vw;
+  height: 2vw;
   border: 1px solid #3f3c3b;
   border-radius: 30px;
   align-items: center;
@@ -1507,24 +1505,24 @@ body {
 .offer__main-info__location__custom-offers .user-offer__info__middle-info__status__variation__exchange .h4-exchange {
   margin: 0;
   color: #166e9f;
-  font-size: 18px;
+  font-size: 1vw;
   font-weight: 400;
 }
 .offer__main-info__location__custom-offers .user-offer__info__middle-info__status .h4-status {
   margin: 0;
-  font-size: 18px;
+  font-size: 1vw;
   color: #d9aa55;
   font-weight: 400;
 }
 .offer__main-info__location__custom-offers .user-offer__info .h4-city {
   margin: 2% 0 0 2%;
-  font-size: 24px;
+  font-size: 1.3vw;
   color: #3f3c3b;
   font-weight: 400;
 }
 .offer__main-info__location__custom-offers .user-offer__info .h4-comment {
   margin: 2% 0 2% 2%;
-  font-size: 18px;
+  font-size: 1vw;
   color: #3f3c3b;
   font-weight: 300;
 }

@@ -1,7 +1,7 @@
 .my-account {
-    height: 76vh;
+    height: 37vw;
     width: 80%;
-    margin-top: 7%;
+    margin-top: 6vw;
     background: $light-gray;
     border: 1px solid $black;
     &__container {
@@ -13,8 +13,7 @@
             width: 40%;
             align-items: center;
             img {
-                width: 285px;
-                height: 285px;
+                width: 15vw;
             }
         }
         &__inputs-changes {
@@ -30,21 +29,21 @@
                 .blok {
                     border: 1px solid $black;
                     background: $gray;
-                    width: 265px;
-                    height: 40px;
+                    width: 14vw;
+                    height: 2.25vw;
                 }
                 h4 {
                     margin: 4% 0 0 10%;
                     color: $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
                 .input-style {
                     background: $white;
-                    width: 465px;
+                    width: 23vw;
                     border: 1px solid $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
             }
         }
@@ -56,13 +55,13 @@
             justify-content: space-between;
             h4 {
                 margin: 0;
-                font-size: 20px;
+                font-size: 1vw;
                 font-weight: 400;
                 color: $black;
             }
             a {
                 margin: 0;
-                font-size: 20px;
+                font-size: 1vw;
                 font-weight: 400;
                 color: $yellow;
                 text-decoration: none;
@@ -88,21 +87,21 @@
                 .blok {
                     border: 1px solid $black;
                     background: $gray;
-                    width: 165px;
-                    height: 40px;
+                    width: 9vw;
+                    height: 2vw;
                 }
                 h4 {
                     margin: 4% 0 0 10%;
                     color: $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
                 .input-style {
                     background: $white;
-                    width: 255px;
+                    width: 12vw;
                     border: 1px solid $black;
                     font-weight: 400;
-                    font-size: 18px;
+                    font-size: 0.9vw;
                 }
             }
         }
