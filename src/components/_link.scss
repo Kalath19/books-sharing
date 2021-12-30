@@ -1,0 +1,27 @@
+@mixin a-menu($bg) {
+    color: $bg;
+    &:hover {
+        color: $yellow;
+        transition: all 0.3s ease;
+    }
+}
+
+@mixin a-list($bg) {
+    color: $bg;
+    &:hover {
+        color: darken($bg, 15%);
+        transition: all 0.3s ease;
+    }
+}
+
+.a-menu {
+    @include a-menu($black);
+}
+
+.a-list {
+    @include a-list($yellow);
+}
+
+.a-expand {
+    @include a-list($blue);
+}

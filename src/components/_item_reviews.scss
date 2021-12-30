@@ -1,0 +1,126 @@
+.item_reviews {
+    padding: 0;
+    margin: 0;
+    width: 365px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    &__User {
+        display: flex;
+        width: 365px;
+        height: 32px;
+        text-align: left;
+        img {
+            display: flex;
+            width: 32px;
+        }
+        &__review-contener {
+            display: flex;
+            flex-direction: column;
+            width: 360px;
+            height: 32px;
+            .h5_user {
+                display: flex;
+                font-size: 12px;
+                margin: 0 0 0 1%;
+                color: $black;
+                font-weight: 600;
+            }
+            .h5_status {
+                display: flex;
+                font-size: 12px;
+                margin: 0 0 0 1%;
+                font-weight: 300;
+                color: $black;
+            }
+        }
+    }
+    &__middle-info {
+        margin-top: 1%;
+        display: flex;
+        width: 365px;
+        height: 210px;
+        background: $gray;
+        border-radius: 10px;
+        &__image {
+            display: flex;
+            width: 160px;
+            height: 210px;
+            img {
+                margin: auto;
+                width: 108px;
+                height: 168px;
+                border-radius: 3px;
+            }
+        }
+        &__text {
+            display: flex;
+            flex-direction: column;
+            width: 205px;
+            height: 210px;
+            .h4-title {
+                display: flex;
+                margin: 10% 5% 3% 5%;
+                font-weight: 400;
+                font-size: 14px;
+                color: $black;
+            }
+            .h4-author {
+                display: flex;
+                font-size: 12px;
+                margin: 0 5% 0 5%;
+                font-weight: 300;
+                color: $black;
+            }
+            &__rating {
+                display: flex;
+                img {
+                    margin: 7% 5% 5% 5%;
+                    height: 36px;
+                }
+                p {
+                    margin: 7% 2% 5% 0;
+                    font-size: 26px;
+                    color: $black;
+                }
+            }
+        }
+    }
+    &__main-info {
+        display: flex;
+        flex-direction: column;
+        width: 365px;
+        height: 180px;
+        &__top {
+            margin: 2% 0 0 0;
+            display: flex;
+            align-items: flex-start;
+            width: 365px;
+            height: 40px;
+            img {
+                margin: 0;
+                height: 20px;
+            }
+            .h4-title {
+                margin: 0;
+                display: flex;
+                font-size: 13px;
+                font-weight: 400;
+                color: $black;
+            }
+        }
+        .h4-text {
+            display: flex;
+            font-size: 13px;
+            margin: 0 0 2% 0;
+            font-weight: 300;
+            color: $black;
+        }
+        a {
+            display: flex;
+            font-size: 13px;
+            outline: none;
+            font-weight: 400;
+        }
+    }
+}

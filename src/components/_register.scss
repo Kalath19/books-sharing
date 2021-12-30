@@ -1,0 +1,52 @@
+.register {
+    height: 70.4vmin;
+    width: 80%;
+    margin-top: 7%;
+    background: $light-gray;
+    border: 1px solid $black;
+    &__container {
+        display: flex;
+        align-items: center;
+        &__photo {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            align-items: center;
+            img {
+                width: 285px;
+                height: 285px;
+            }
+        }
+        &__inputs {
+            margin: 3% auto;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            align-items: center;
+            &__input-field {
+                display: flex;
+                flex-direction: row;
+                margin: 0 0 2% 0;
+                .blok {
+                    border: 1px solid $black;
+                    background: $gray;
+                    width: 265px;
+                    height: 40px;
+                }
+                h4 {
+                    margin: 4% 0 0 10%;
+                    color: $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                .input-style {
+                    background: $white;
+                    width: 465px;
+                    border: 1px solid $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

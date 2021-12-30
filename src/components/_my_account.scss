@@ -1,0 +1,116 @@
+.my-account {
+    height: 76vh;
+    width: 80%;
+    margin-top: 7%;
+    background: $light-gray;
+    border: 1px solid $black;
+    &__container {
+        display: flex;
+        align-items: center;
+        &__photo {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            align-items: center;
+            img {
+                width: 285px;
+                height: 285px;
+            }
+        }
+        &__inputs-changes {
+            margin: 3% auto;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            align-items: center;
+            &__input-field {
+                display: flex;
+                flex-direction: row;
+                margin: 0 0 2% 0;
+                .blok {
+                    border: 1px solid $black;
+                    background: $gray;
+                    width: 265px;
+                    height: 40px;
+                }
+                h4 {
+                    margin: 4% 0 0 10%;
+                    color: $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                .input-style {
+                    background: $white;
+                    width: 465px;
+                    border: 1px solid $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+        &__user-info {
+            margin: 0 0 1.5% 10%;
+            display: flex;
+            width: 20%;
+            align-items: center;
+            justify-content: space-between;
+            h4 {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: $black;
+            }
+            a {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 400;
+                color: $yellow;
+                text-decoration: none;
+                outline: none;
+            }
+        }
+        &__line {
+            hr {
+                margin: 0;
+                color: $black;
+                border-width: 1px;
+            }
+        }
+        &__inputs-password {
+            margin: 3% auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            &__input-field {
+                display: flex;
+                flex-direction: row;
+                .blok {
+                    border: 1px solid $black;
+                    background: $gray;
+                    width: 165px;
+                    height: 40px;
+                }
+                h4 {
+                    margin: 4% 0 0 10%;
+                    color: $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                .input-style {
+                    background: $white;
+                    width: 255px;
+                    border: 1px solid $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+        &__saving-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}

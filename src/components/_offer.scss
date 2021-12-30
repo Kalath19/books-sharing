@@ -1,0 +1,288 @@
+ .offer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     &__image {
+         display: flex;
+         flex-direction: column;
+         position: fixed;
+         margin-top: 7%;
+         margin-right: 54%;
+         align-items: center;
+         img {
+             width: 250px;
+             height: 375px;
+             border-radius: 5px;
+         }
+         a {
+             font-size: 20px;
+             color: $yellow;
+             font-weight: 400;
+             text-decoration: none;
+             outline: none;
+         }
+     }
+     &__head {
+         display: flex;
+         justify-content: center;
+         margin-top: 6%;
+         background: $light_gray;
+         border-radius: 5px;
+         border: 1px solid $black;
+         width: 70%;
+         &__about {
+             display: flex;
+             flex-direction: column;
+             width: 54%;
+             .h4-title {
+                 font-size: 26px;
+                 color: $black;
+                 font-weight: 400;
+                 margin: 2% 0;
+             }
+             .h4-author {
+                 margin: 0;
+                 font-size: 26px;
+                 color: $black;
+                 font-weight: 300;
+             }
+             &__functions {
+                 margin: 2% 0;
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: space-between;
+                 width: 85%;
+             }
+             &__information {
+                 margin: 2% 0 3% 0;
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: flex-start;
+                 a {
+                     margin-right: 3%;
+                     font-size: 16px;
+                     color: $black;
+                     font-weight: 300;
+                     text-decoration: none;
+                     outline: none;
+                 }
+             }
+         }
+     }
+     &__main-info {
+         display: flex;
+         width: 40%;
+         &__location {
+             margin-top: 2%;
+             padding: 0;
+             display: flex;
+             flex-direction: column;
+             width: 100%;
+             &__mark {
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: space-between;
+                 width: 85%;
+                 margin-left: 2%;
+                 &__rating {
+                     display: flex;
+                     flex-direction: row;
+                     width: 13%;
+                     justify-content: space-between;
+                     img {
+                         margin-right: 1%;
+                         height: 35px;
+                     }
+                     .h4-rev {
+                         margin: 0;
+                         font-size: 30px;
+                         color: $black;
+                         font-weight: 400;
+                     }
+                 }
+                 &__my-mark {
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: space-between;
+                     width: 60%;
+                     .h4-mark {
+                         margin: 0;
+                         font-size: 26px;
+                         color: $black;
+                         font-weight: 400;
+                     }
+                 }
+             }
+             &__text {
+                 display: flex;
+                 flex-direction: column;
+                 margin-top: 2%;
+                 margin-left: 2%;
+                 .h4-text {
+                     margin: 0;
+                     font-size: 20px;
+                     color: $black;
+                     font-weight: 400;
+                 }
+                 a {
+                     color: $blue;
+                     margin: 0;
+                     font-weight: 400;
+                     display: flex;
+                     font-size: 18px;
+                     text-decoration: none;
+                     outline: none;
+                 }
+             }
+             &__custom-offers {
+                 display: flex;
+                 flex-direction: column;
+                 margin-left: 2%;
+                 .h4-notice {
+                     font-size: 26px;
+                     color: $brown;
+                     font-weight: 400;
+                     margin: 2% 0;
+                 }
+                 .user-offer {
+                     padding: 0;
+                     margin: 0;
+                     width: 100%;
+                     display: flex;
+                     flex-direction: column;
+                     &__User {
+                         display: flex;
+                         width: 100%;
+                         text-align: left;
+                         img {
+                             display: flex;
+                             width: 32px;
+                         }
+                         &__review-contener {
+                             display: flex;
+                             flex-direction: column;
+                             width: 100%;
+                             .h5_user {
+                                 display: flex;
+                                 font-size: 12px;
+                                 margin: 0 0 0 1%;
+                                 color: $black;
+                                 font-weight: 600;
+                             }
+                             .h5_status {
+                                 display: flex;
+                                 font-size: 12px;
+                                 margin: 0 0 0 1%;
+                                 font-weight: 300;
+                                 color: $black;
+                             }
+                         }
+                     }
+                     &__info {
+                         display: flex;
+                         width: 100%;
+                         background: $light_gray;
+                         border: 1px solid $black;
+                         border-radius: 10px;
+                         justify-content: center;
+                         margin-top: 1%;
+                         flex-direction: column;
+                         align-items: center;
+                         &__middle-info {
+                             margin-top: 3%;
+                             display: flex;
+                             width: 82%;
+                             background: $white;
+                             border: 1px solid $black;
+                             border-radius: 10px;
+                             flex-direction: column;
+                             &__status {
+                                 margin-top: 3%;
+                                 display: flex;
+                                 flex-direction: row;
+                                 justify-content: space-around;
+                                 width: 100%;
+                                 align-items: center;
+                                 &__variation {
+                                     display: flex;
+                                     flex-direction: row;
+                                     justify-content: space-between;
+                                     width: 40%;
+                                     &__sale {
+                                         display: flex;
+                                         width: 100px;
+                                         height: 37px;
+                                         border: 1px solid $black;
+                                         border-radius: 30px;
+                                         align-items: center;
+                                         justify-content: center;
+                                         .h4-sale {
+                                             margin: 0;
+                                             color: $brown;
+                                             font-size: 18px;
+                                             font-weight: 400;
+                                         }
+                                     }
+                                     &__exchange {
+                                         display: flex;
+                                         width: 100px;
+                                         height: 37px;
+                                         border: 1px solid $black;
+                                         border-radius: 30px;
+                                         align-items: center;
+                                         justify-content: center;
+                                         .h4-exchange {
+                                             margin: 0;
+                                             color: $blue;
+                                             font-size: 18px;
+                                             font-weight: 400;
+                                         }
+                                     }
+                                 }
+                                 .h4-status {
+                                     margin: 0;
+                                     font-size: 18px;
+                                     color: $yellow;
+                                     font-weight: 400;
+                                 }
+                             }
+                         }
+                         .h4-city {
+                             margin: 2% 0 0 2%;
+                             font-size: 24px;
+                             color: $black;
+                             font-weight: 400;
+                         }
+                         .h4-comment {
+                             margin: 2% 0 2% 2%;
+                             font-size: 18px;
+                             color: $black;
+                             font-weight: 300;
+                         }
+                         &__button {
+                             margin: 2% auto;
+                             display: flex;
+                             width: 82%;
+                             justify-content: flex-end;
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
+ 
+ .ul-colum {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ 
+ li {
+     margin-bottom: 3%;
+ }

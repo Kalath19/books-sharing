@@ -1,0 +1,159 @@
+@mixin button-background($bg) {
+    background: $bg;
+    &:hover {
+        background: darken($bg, 8%);
+        transition: all 0.3s ease;
+    }
+    &:active {
+        background: darken($bg, 25%);
+    }
+}
+
+@mixin button-color($bg) {
+    color: $bg;
+    &:hover {
+        color: darken($bg, 8%);
+        transition: all 0.3s ease;
+    }
+    &:active {
+        color: darken($bg, 25%);
+    }
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    color: $black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.button-list {
+    width: 150px;
+    height: 28px;
+    font-size: 12px;
+    display: flex;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.button-reviews {
+    width: 165px;
+    height: 38px;
+    font-size: 14px;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 5% 0 5%;
+    font-weight: 400;
+}
+
+.search_button {
+    width: 100px;
+    height: 40px;
+    color: $black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.register-button {
+    width: 247px;
+    height: 42px;
+    font-size: 18px;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 5% 0 5%;
+    font-weight: 400;
+}
+
+.new-book-button {
+    width: 247px;
+    height: 42px;
+    font-size: 18px;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 5% 0 5%;
+    font-weight: 400;
+}
+
+.upload-button {
+    width: 150px;
+    height: 28px;
+    font-size: 16px;
+    display: flex;
+    color: $blue;
+    border: none;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin: 2% auto;
+    font-weight: 400;
+}
+
+.navigation-button {
+    width: 247px;
+    height: 42px;
+    font-size: 18px;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5% 0 1.5% 0;
+    font-weight: 400;
+}
+
+.saving-button {
+    width: 247px;
+    height: 42px;
+    font-size: 18px;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.publish-button {
+    width: 247px;
+    height: 42px;
+    font-size: 18px;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 2.5%;
+    font-weight: 400;
+}
+
+.offer-button {
+    width: 197px;
+    height: 33px;
+    font-size: 17px;
+    display: flex;
+    color: $black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    font-weight: 400;
+}
+
+.btn-yellow {
+    @include button-background($yellow);
+}
+
+.btn-blue {
+    @include button-color($blue);
+}

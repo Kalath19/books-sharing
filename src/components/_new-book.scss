@@ -1,0 +1,77 @@
+.new-book {
+    height: 85vh;
+    width: 80%;
+    margin-top: 7%;
+    background: $light-gray;
+    border: 1px solid $black;
+    &__container {
+        display: flex;
+        align-items: center;
+        &__photo {
+            display: flex;
+            width: 40%;
+            align-items: center;
+            flex-direction: column;
+            img {
+                width: 289px;
+                height: 444px;
+                border-radius: 5px;
+            }
+        }
+        &__inputs {
+            margin-top: 3%;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            align-items: center;
+            &__input-field {
+                display: flex;
+                flex-direction: row;
+                margin: 0 0 2% 0;
+                .blok {
+                    border: 1px solid $black;
+                    background: $gray;
+                    width: 265px;
+                    height: 40px;
+                }
+                h4 {
+                    margin: 4% 0 0 10%;
+                    color: $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                .input-style {
+                    background: $white;
+                    width: 465px;
+                    border: 1px solid $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+            &__input-window {
+                display: flex;
+                flex-direction: column;
+                margin: 0 0 2% 0;
+                .blok {
+                    width: 738px;
+                    height: 40px;
+                }
+                h4 {
+                    margin: 2% 0 0 0;
+                    color: $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                .window-style {
+                    background: $white;
+                    width: 738px;
+                    height: 265px;
+                    border: 1px solid $black;
+                    font-weight: 400;
+                    font-size: 18px;
+                    resize: none;
+                }
+            }
+        }
+    }
+}

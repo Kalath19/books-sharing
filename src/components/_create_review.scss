@@ -1,0 +1,106 @@
+.create_review {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    &__body {
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-evenly;
+    }
+    li {
+        a {
+            text-decoration: none;
+            outline: none;
+        }
+    }
+    &__basic_info {
+        display: flex;
+        justify-content: center;
+        &__location {
+            margin: 2% 0 1% 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            width: 67%;
+            justify-content: space-evenly;
+            h4 {
+                display: flex;
+                margin: 0;
+                font-size: 26px;
+                color: $black;
+                font-weight: 400;
+                width: -webkit-fill-available;
+            }
+            a {
+                margin: 0;
+                font-weight: 400;
+                display: flex;
+                font-size: 26px;
+                outline: none;
+            }
+        }
+    }
+    &__position {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__New-review {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 70%;
+            border: 1px solid $black;
+            border-radius: 5px;
+            h4 {
+                display: flex;
+                margin: 1% 2.5%;
+                font-size: 21px;
+                color: $black;
+                font-weight: 400;
+            }
+            &__line {
+                hr {
+                    margin: 0;
+                    color: $black;
+                    border-width: 1px;
+                }
+            }
+            &__input-window-style {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                align-items: center;
+                .window-title {
+                    background: $white;
+                    width: 95%;
+                    height: 45px;
+                    border: 1px solid $black;
+                    border-radius: 5px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    resize: none;
+                }
+                .window-review {
+                    background: $white;
+                    width: 95%;
+                    height: 350px;
+                    border: 1px solid $black;
+                    border-radius: 5px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    resize: none;
+                    margin-bottom: 1%;
+                }
+            }
+        }
+    }
+}
